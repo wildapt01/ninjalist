@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import Footer from "../comps/Footer";
 import Navbar from "../comps/Navbar";
 import styles from "../styles/Home.module.css";
@@ -6,7 +7,6 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <h1>Homepage</h1>
       <p>
         Cillum nisi fatback aute sirloin, adipisicing nostrud meatloaf shankle
@@ -22,7 +22,9 @@ export default function Home() {
         anim pork drumstick ribeye ad non frankfurter quis tongue eiusmod
         consectetur.
       </p>
-      <Footer />
+      <Link href="/ninjas">
+        <a>See Ninja Listing</a>
+      </Link>
     </div>
   );
 }
