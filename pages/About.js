@@ -1,4 +1,5 @@
 import Head from "next/head";
+import styles from "../styles/Home.module.css";
 
 const about = () => {
   return (
@@ -8,18 +9,18 @@ const about = () => {
         <meta name="keywords" content="ninjas" />
       </Head>
       <div>
-        <h1>About</h1>
-        <p>
-          Alcatra incididunt biltong, esse rump chuck quis proident lorem
-          venison. Ham pariatur reprehenderit rump, bacon prosciutto sunt nulla
-          anim. Sirloin nisi swine ham, adipisicing ut duis mollit capicola
-          sint. Ea dolor in est.","Turkey biltong duis andouille. Buffalo jowl
-          short loin spare ribs alcatra consequat sausage pancetta. Exercitation
-          consectetur enim aliquip rump shankle, turducken kevin hamburger
-          deserunt tongue magna veniam commodo ham. Burgdoggen adipisicing ut,
-          cupidatat dolore ribeye duis in pork belly id irure anim prosciutto.
-          Cupim ullamco ea, officia chuck andouille ex tail biltong duis
-          hamburger. Flank drumstick ut cillum qui, bacon jerky.
+        <h1 className={styles.title}>About</h1>
+        <p className={styles.text}>
+          ASDERTE esse rump chuck quis proident lorem venison. Ham pariatur
+          reprehenderit rump, bacon prosciutto sunt nulla anim. Sirloin nisi
+          swine ham, adipisicing ut duis mollit capicola sint. Ea dolor in
+          est.","Turkey biltong duis andouille. Buffalo jowl short loin spare
+          ribs alcatra consequat sausage pancetta. Exercitation consectetur enim
+          aliquip rump shankle, turducken kevin hamburger deserunt tongue magna
+          veniam commodo ham. Burgdoggen adipisicing ut, cupidatat dolore ribeye
+          duis in pork belly id irure anim prosciutto. Cupim ullamco ea, officia
+          chuck andouille ex tail biltong duis hamburger. Flank drumstick ut
+          cillum qui, bacon jerky.
         </p>
         <p>
           Consectetur bacon venison ut, landjaeger incididunt ball tip esse
