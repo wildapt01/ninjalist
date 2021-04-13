@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-const About = () => {
+const about = () => {
   return (
     <>
       <Head>
@@ -37,4 +37,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default about;
